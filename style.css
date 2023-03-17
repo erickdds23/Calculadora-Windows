@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calc {
+    align-items: center;
+    background-color: #e7e6e6;
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem;
+    width: auto;
+  }
+  
+  .calc-botoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2px;
+  }
+  
+  button {
+    width: 5rem;
+    height: 3.5rem;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #ccc;
+  }
+  
+  .botoes-numericos {
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .bgWhite {
+    background-color: white;
+  }
+  
+  .btnIgual {
+    background-color: #95bff5; 
+  }
+  
+  .btnIgual:hover {
+    background-color: #75a9ee; 
+  }
+  
+  .BtnsSinais {
+    font-size: 20px;
+  }
+  
+  .scroll {
+    width: 20rem;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .display {
+    font-weight: bold;
+    width: 100%;
+    text-align: end;
+    font-size: 35px;
+    padding: 15px 5px;
+  }
+  
+  @media(max-width: 600px) {
+    button {
+      width: 4rem;
+    }
+  
+    .scroll {
+      width: 16rem;
+    }
+  }
+  
+  @media(max-width: 300px) {
+    button {
+      width: 3rem;
+    }
+  
+    .scroll {
+      width: 12rem;
+    }
+  }
