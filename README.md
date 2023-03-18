@@ -13,4 +13,4 @@
 ### Link de produção: https://calculadora-windows-three.vercel.app/
 
 #### Como funciona o projeto?
-O projeto se baseia em uma idéia de uma calculadora idẽntica a nativa do Windows, fazendo operações simples e compostas como potência, raíz entre outras.
+O projeto se baseia em uma idéia de uma calculadora idêntica a nativa do Windows, fazendo operações simples e compostas como potência, raíz entre outras.
